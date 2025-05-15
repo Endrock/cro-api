@@ -1,0 +1,34 @@
+{
+    "fields": [
+        {
+            "name": "name",
+            "dbType": "string",
+            "htmlType": "text",
+            "validations": "required|string|max:255"
+        },
+        {
+            "name": "email",
+            "dbType": "string",
+            "htmlType": "email",
+            "validations": "required|email|regex:/@powerdigitalmarketinginc\\.com$/|unique:users,email"
+        },
+        {
+            "name": "password",
+            "dbType": "string",
+            "htmlType": "password",
+            "validations": "required|string|min:8|confirmed"
+        },
+        {
+            "name": "role_id",
+            "dbType": "unsignedBigInteger:nullable",
+            "htmlType": "select",
+            "validations": "nullable|exists:roles,id"
+        },
+        {
+            "name": "team_id",
+            "dbType": "unsignedBigInteger:nullable",
+            "htmlType": "select",
+            "validations": "nullable|exists:teams,id"
+        }
+    ]
+}
