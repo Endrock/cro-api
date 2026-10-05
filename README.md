@@ -1,3 +1,11 @@
+# ⚠️ Deprecado
+
+Este repositorio nunca pasó del esqueleto inicial de Laravel y ya no se usará. La API de CRO es la de **CRO Atlas** ([kurodaSensei/cro-atlas](https://github.com/kurodaSensei/cro-atlas)).
+
+El repositorio queda archivado (solo lectura).
+
+---
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
